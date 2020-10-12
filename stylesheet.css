@@ -1,0 +1,253 @@
+ 
+html, body {
+	margin:0;
+	padding:0;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+h2{
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px 
+}
+
+.formheading{
+    text-align: center;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.main-nav, ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav a{
+    width: 20%;
+    display: block;
+    float: left;
+    background-color: #708090;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #000000;
+}
+
+
+  /*Positioning in box(Done previously in plc course (KCFE Software Development Course) */
+#box{
+    width: 36%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute; 
+    top: 10%;
+    right: 3%;
+    background-color: #FAA356;
+    color: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+
+
+
+/*
+ * -- BANNERS --
+
+ */
+
+.banner {
+    background:  url('images/star-wars-wallpapers.jpg') top left no-repeat fixed; /*http://www.kubipet.com/star-wars-wallpapers.html*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+    
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em;
+    border-bottom: 2px solid #000000;
+     
+}
+
+.bannertwo {
+    background:  url('images/about_us.png') top left no-repeat fixed; /*https://www.teneo.net/us/blog/classroom-experience-school-depends-network-health/*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em; 
+    border-bottom: 2px solid #000000;
+}
+
+
+.bannerthree {
+    background:  url('images/murder_on_the_orient_express_cast.jpg') top left no-repeat fixed; /*https://www.hdwallpapers.in/murder_on_the_orient_express_cast_2017_4k-wallpapers.html*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em; 
+    border-bottom: 2px solid #000000;
+}
+
+.bannerfour {
+    background:  url('images/mr_robot.jpg') top left no-repeat fixed;   /*https://imgur.com/r/MrRobot/Sl18G*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em; 
+    border-bottom: 2px solid #000000;
+}
+
+.bannerfive {
+    background:  url('images/books.jpg') top left no-repeat fixed;  /*http://qige87.com/wallpaper-books.html*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em; 
+    border-bottom: 2px solid #000000;
+}
+
+.bannersix {
+    background:  url('images/map3.jpg') top left no-repeat fixed;    /*http://thewallpaper.co/map-wallpapers-desktop-download-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-1920x1080/*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 3em; 
+    border-bottom: 2px solid #000000;
+}
+
+/*
+ * -- Start of Content --
+
+ */
+ 
+#content{
+    padding-left:5%}
+    }
+
+
+div#header { 
+}
+
+
+div#left {
+    width:33%;
+    float:left;
+    
+}
+
+div#right {
+    width:33%;
+    float:right;
+
+   
+}
+
+div#middle {
+    width:33%;
+    float:right;
+  
+    
+}
+ 
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contentstyle{
+    line-height: 1.6em;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+/*
+ * -- End of Content --
+
+ */
+
+#footer{
+    background: top left no-repeat fixed;
+    height:6em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #708090;
+    color: white;
+    text-align: center;
+    margin-top:3%;
+    border-top: 5px solid #000000;
+    }
+    
+.bottomstyle{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table{
+    margin-top: 5%;
+    padding-left:20%;
+    padding-right:20%; 
+    padding-bottom: 8%
+}
+     
+th{
+    text-transform: uppercase;
+    text-align: center;
+    width: 10%;
+}
+
+td{
+    text-align: center;
+}
+
+
+form{
+    padding-left: 20%;
+    padding-right: 20%; 
+    padding-bottom: 8%
+    text-align: center;
+    line-height: 250%
+    width:65%;
+}
+    
+fieldset{
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+  
+  
+ul{
+    text-align: center;
+    }  
+
+
+
+
